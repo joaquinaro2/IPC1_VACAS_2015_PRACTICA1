@@ -24,8 +24,8 @@ public class Programa1_201314725 {
 		int s2=(int)(t);
 		System.out.println(h2+":"+m2+":"+s2);
 		  
-		System.out.println('\n');
-		System.out.println("Presione "m "para regresar al menú o cualquier letra para continuar");	
+		
+		System.out.println("Presione m para regresar al menú o cualquier letra para continuar");	
 		salir = sc.next(); 
 		} 
 		while (!salir.equals("m"));

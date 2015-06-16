@@ -66,7 +66,7 @@ public class Principal {
 			break;
 		default: System.out.println("El programa "+op+" no existe.");
 				
-		System.out.println("\nPresione S para salir o cualquier letra para continuar");	
+		System.out.println("Presione S para salir o cualquier letra para continuar");	
 		salir = sc.next(); 
 		}
 		while (!salir.equals("S")){
