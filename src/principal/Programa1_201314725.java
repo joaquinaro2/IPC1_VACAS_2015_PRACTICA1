@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Programa1_201314725 {
 
 	public static void main(String[] args) {
+		String salir; 
+		do 
+		{ 
 		System.out.println("Para ingresar la hora ingrese:\nHora:");
 		Scanner sc=new Scanner(System.in);
 		int h=sc.nextInt();
@@ -20,6 +23,15 @@ public class Programa1_201314725 {
 		t=t-m2*60;
 		int s2=(int)(t);
 		System.out.println(h2+":"+m2+":"+s2);
+		  
+		System.out.println('\n');
+		System.out.println("Presione "m "para regresar al menú o cualquier letra para continuar");	
+		salir = sc.next(); 
+		} 
+		while (!salir.equals("m"));
+			Principal menu=new Principal();
+			menu.main(args);
+			
 	}
 
 }
